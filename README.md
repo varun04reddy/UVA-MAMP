@@ -1,4 +1,4 @@
-# mamp
+# Motion and Motor Performance Labratory
 
 
 ```
@@ -8,11 +8,11 @@ project(OpenSimCustomPlugin)
 find_package(OpenSim REQUIRED)
 
 set(SOURCES
-    MyCustomPlugin.cpp
+    CustomGaitAnalysisPlugin.h
 )
 
 set(HEADERS
-    MyCustomPlugin.h
+    CustomGaitAnalysisPlugin.h
 )
 
 add_library(${PROJECT_NAME} SHARED ${SOURCES} ${HEADERS})
