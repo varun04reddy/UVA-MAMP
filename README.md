@@ -9,7 +9,7 @@ project(OpenSimCustomPlugin)
 find_package(OpenSim REQUIRED)
 
 set(SOURCES
-    CustomGaitAnalysisPlugin.h
+    CustomGaitAnalysisPlugin.cpp
 )
 
 set(HEADERS
