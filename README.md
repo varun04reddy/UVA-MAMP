@@ -31,7 +31,14 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 install(TARGETS ${PROJECT_NAME} DESTINATION ${OpenSim_INSTALL_PLUGINDIR})
 
 ```
-Build the pluggin using VS Code: 
+Build the plugin using VS Code: 
 ```
 msbuild CustomGaitAnalysisPlugin.sln /p:Configuration=Release
 ```
+Once the plugin is built, then you can add it to your OpenSim directory, find the OpenSim.ini and open it in a text editor, then navigate to the plugin section, finally add the follwowing line
+
+```
+CustomGaitAnalysisPlugin = plugins/CustomGaitAnalysisPlugin
+```
+
+Save the changes, and run Opensim
