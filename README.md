@@ -1,5 +1,6 @@
-# Motion and Motor Performance Labratory
+# Motion and Motor Performance  Laboratory
 
+A collection of my work with the UVA Motion and Motor Performance Laboratory. My biggest work was implementing the findings from the "The gait deviation index: A new comprehensive index of gait pathology"  research paper written by Michael H. Schwartz and Adam Rozumalski by creating a custom C++ OpenSim plugin that is able to create a standardized gait deviation index for our rodent data. 
 
 ```
 cmake_minimum_required(VERSION 3.12)
