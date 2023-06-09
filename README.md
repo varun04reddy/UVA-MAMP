@@ -1,6 +1,7 @@
 # Motion and Motor Performance  Laboratory
 
 
+Implementing a C++ plugin to compute the Gait Deviation Index, an implementation of "The gait deviation index: A new comprehensive index of gait pathology" by Michael H. Schwartz and Adam Rozumalski
 
 Research Paper: 
 https://www.sciencedirect.com/science/article/abs/pii/S0966636208001136
